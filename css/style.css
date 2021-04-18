@@ -401,7 +401,7 @@ body{
   height: 100px;
 }
 .footer_bg{
-  top: -240px;
+  top: -280px;
   position: absolute;
   width: 100%;
   z-index: -1;
