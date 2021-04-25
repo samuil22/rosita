@@ -445,6 +445,7 @@ body{
   background-size: cover;
   border-bottom: 5px solid #ffcc00;
   padding-top: 200px;
+  background-position: 100%;
 }
 .logo_reverse img{
   height: 100px;
