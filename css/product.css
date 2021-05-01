@@ -201,3 +201,85 @@
 /* key nutrition area end */
 /* facts area start */
 /* facts area end */
+
+/* endorsed area start */
+.endors_lay img{ 
+    height:65px;
+}
+.data_conteiner{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-template-rows:  minmax(100px,1fr);
+    margin: 40px 0;
+    grid-auto-flow: dense; 
+}
+.data_conteiner .box{ 
+    padding:20px;
+    display: grid;
+    place-items: start; 
+    transition:0.5s;
+    margin: 10px;
+    background-size: cover;
+    background-position: top;
+    box-shadow: 0px 0 15px 10px #ccc;
+}
+.data_conteiner .box:nth-child(1){
+    grid-column: span 2;
+    grid-row:span 5;
+}
+.data_conteiner .box:nth-child(2){
+    grid-column: span 2;
+    grid-row:span 2;
+}
+.data_conteiner .box:nth-child(3){
+    grid-column: span 1;
+    grid-row:span 1;
+}
+.data_conteiner .box:nth-child(4){
+    grid-column: span 1;
+    grid-row:span 1;
+}
+.box{
+    background-size: cover;
+    background-position: top;
+}
+.content img{
+    height: 38px;
+}
+.data_ul li{
+    list-style:none;
+    font-size: 16px;
+    color:#fff;
+    line-height: 35px;
+}
+/* endorsed area end */
+/* help area start */
+.help_r {
+    display: flex;
+    align-items: center;
+    flex-flow: nowrap;
+    background: #fff;
+    height: 230px;
+    box-shadow: 40px 5px 52px -12px #cccccc9c;
+}
+.help_im{  
+    width: 60%;
+}
+/* help area end */
+/* suggest area start */
+.sugge{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse; 
+}
+.sugge_img {
+    position: absolute;
+    width: 45%;
+    left: -5px;
+    bottom: -35px;
+}
+.sugge_text{
+    box-shadow: 0px 0 15px 2px #ccc;
+    width: 70%;
+}
+/* suggest area end */

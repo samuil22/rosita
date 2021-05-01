@@ -445,7 +445,7 @@ body{
   background-size: cover;
   border-bottom: 5px solid #ffcc00;
   padding-top: 200px;
-  background-position: 100%;
+  background-position: top;
 }
 .logo_reverse img{
   height: 100px;
@@ -596,5 +596,8 @@ body{
 .scrolldown { 
   left: 90%;
 } 
+.data_conteiner{  
+  display: unset !important;
+}
 }
 
