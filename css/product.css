@@ -1,7 +1,7 @@
 /* product top area start */
 #product_t{
     background-image: url(../img/product/product_bg_top.png);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -196,10 +196,47 @@
     position: absolute;
     bottom: -121px;
     right: -25px;
-}
-
+} 
 /* key nutrition area end */
 /* facts area start */
+.fact_pill .nav-link.active, .nav-pills .show > .nav-link {
+    background: #fff;
+    box-shadow: 0px 0 15px 2px #ccc;
+    color: #000;
+    border-top: 5px solid #08456B;
+    position: relative;
+}
+.fact_pill .nav-link.active::after {
+    position: absolute;
+    width: 29px;
+    content: "";
+    height: 33px;
+    right: -38px;
+    top: 21%;
+    background-image: url(../img/product/fact_arrow.png);
+    background-position: 50%;
+    background-size: cover;
+     
+}
+.fact_pill a{
+    color: #494949;
+}
+.fact_right_img {
+    width: 190px;
+    border-radius: 50%;
+}
+.fact_l_color {
+    position: relative;
+}
+.fact_l_color::before {
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 4px;
+    background: #eeb80d;
+    left: -13px;
+    bottom: 3px;
+}
 /* facts area end */
 
 /* endorsed area start */
