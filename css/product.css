@@ -1,3 +1,30 @@
+.produ_btn {
+    background:#08456B;
+    border-radius: 12px;
+    padding: 8px 35px;
+    font-size: 14px;
+    color: #fff;
+    border: 2px solid #08456B;
+}
+.produ_btn:hover {
+    background: #fff; 
+    color: #08456B;
+    border: 2px solid #08456B;
+}
+.produ_btnT {
+    background:#fff;
+    border-radius: 12px;
+    padding: 8px 35px;
+    font-size: 14px;
+    color: #08456B;
+    border: 2px solid #08456B;
+}
+.produ_btnT:hover {
+    background: #08456B;
+    color: #fff;
+    border: 2px solid #08456B;
+}
+
 /* product top area start */
 #product_t{
     background-image: url(../img/product/product_bg_top.png);
