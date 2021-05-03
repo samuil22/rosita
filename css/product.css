@@ -24,7 +24,18 @@
     color: #fff;
     border: 2px solid #08456B;
 }
-
+.cart_bt {
+    background-image: url(../img/product/cart1.png);
+    height: 18px;
+    width: 19px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    margin: -4px 10px;
+}
+.produ_btn:hover .cart_bt{
+    background-image: url(../img/product/cart2.png);
+}
 /* product top area start */
 #product_t{
     background-image: url(../img/product/product_bg_top.png);
@@ -90,6 +101,7 @@
     box-shadow: 0px 0 15px 2px #ccc;
     border-radius: 10px;
     padding: 10px;
+    background: #fff;
 }
 .cart_img_logo img{
     height:115px; 
@@ -222,7 +234,7 @@
 .key_img {
     position: absolute;
     bottom: -121px;
-    right: -25px;
+    right: 0px;
 } 
 /* key nutrition area end */
 /* facts area start */
@@ -263,6 +275,9 @@
     background: #eeb80d;
     left: -13px;
     bottom: 3px;
+}
+.fact_right{
+    padding-left: 30px;
 }
 /* facts area end */
 
@@ -310,6 +325,9 @@
 .content img{
     height: 38px;
 }
+.data_content{
+    padding: 35px;
+}
 .data_ul li{
     list-style:none;
     font-size: 16px;
@@ -328,6 +346,9 @@
 }
 .help_im{  
     width: 60%;
+}
+.help_button .hlp{
+    margin-right: 35px;
 }
 /* help area end */
 /* suggest area start */

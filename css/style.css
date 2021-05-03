@@ -599,5 +599,60 @@ body{
 .data_conteiner{  
   display: unset !important;
 }
+.product_t_text h1 {
+  font-size: 25px;
+}
+.product_t_text {
+  margin: 25% auto;
+}
+.product_t_img {
+  width: 35%;
+}
+.cart_img_logo{
+  margin: 7px;
+}
+.slide_pro_item img {
+  width: 220px;
+}
+.pluse_video_btn { 
+  top: 350px;
+}
+.produ_btnT{
+  margin: 5px;
+}
+.key_img{
+  display: none;
+}
+.fact_right{
+  padding-left: 0px;
+  padding-top:20px;
+}
+.data_content{
+  padding: 0px;
+}
+.help_r{
+  height:100%;
+  display: unset;
+}
+.help_button .hlp{
+  margin-right: 0px;
+  margin: 5px;
+}
+.fact_pill .nav-link.active::after{
+  display:none;
+}
+.sugge_text{
+  width: 100%;
+}
+.sugge_img{
+  position: unset;
+  margin: 15px auto;
+}
+.sugge{
+  display:unset;
+}
+.cart_ul li{
+  padding:0;
+}
 }
 
