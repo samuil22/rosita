@@ -368,3 +368,17 @@
     width: 70%;
 }
 /* suggest area end */
+/* discover area start  */
+.discover_im_area{
+    position: relative;
+}
+.dico_image{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+}
+.dico_image img{
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.2)));
+}
+/* discover area end  */
