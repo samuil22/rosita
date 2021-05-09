@@ -50,6 +50,9 @@ body{
   color:#08456B;
   font-weight: bold;
 }
+.testing_tag_color{
+  color:#494949;
+}
 .text_p_color{
   color:#828181;
 }
@@ -441,7 +444,7 @@ body{
 /* footer area start */
 #footer{
   position: relative;
-  background-image: url(../img/footer_wave.png);
+  background-image: url(../img/footer_wave1.png);
   background-size: cover;
   border-bottom: 5px solid #ffcc00;
   padding-top: 200px;
