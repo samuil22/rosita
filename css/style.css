@@ -513,6 +513,9 @@ body{
 } 
  
 @media only screen and (max-width: 776px) {
+  .menu ul li:first-child {
+    padding-left: 15px;
+}
   .card-title_h1 {
     font-size: 2rem;
 }
@@ -535,6 +538,9 @@ body{
 }
 } 
 @media only screen and (max-width: 570px) {
+  .menu ul li:first-child {
+    padding-left: 15px;
+}
  .test_h1_italy{
   font-size: 3rem;
  }
