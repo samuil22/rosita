@@ -400,7 +400,7 @@
    
 
 /* middle area  */
-.row.bbt {
+.bbt {
 	border-bottom: 1px solid #c5c5c5;
 }
 .menu ul {
@@ -493,7 +493,7 @@
     color: #08456b;
 } */
 
-.row.bdr {
+.bdr {
 	padding: 30px;
 	background-color: #fff;
 	box-shadow: 0px 10px 30px 0px rgba(205, 205, 205, 0.33);
@@ -521,6 +521,9 @@
       border-bottom: 1px solid #ddd;
       padding-bottom: 10px;
       font-weight: 600;
+  }
+  .content_table1 thead tr{
+      border-bottom: 0;
   }
   .content_table th,
   .content_table td {
